@@ -1,8 +1,10 @@
+import { QueryProvider } from './provider/query'
+
 function App(): React.JSX.Element {
   return (
-    <>
-      <div className="h-screen bg-red-200"></div>
-    </>
+    <QueryProvider>
+      <div>dasdas</div>
+    </QueryProvider>
   )
 }
 
